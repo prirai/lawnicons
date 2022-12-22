@@ -67,5 +67,12 @@ fun IconPreview(
 @Preview(showBackground = true)
 @Composable
 fun IconPreviewComposablePreview() {
-    IconPreview(iconId = R.drawable.camera)
+    IconPreview(
+        iconInfo = IconInfo(
+            name = "Camera",
+            drawableName = "@drawable/camera",
+            packageName = "com.android.camera",
+            id = R.drawable.camera
+        )
+    )
 }
