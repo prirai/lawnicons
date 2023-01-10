@@ -108,6 +108,7 @@ fun About(navController: NavController) {
                             text = stringResource(id = R.string.github_link),
                             url = "https://github.com/LawnchairLauncher/lawnicons",
                         )
+                        Spacer(Modifier.size(10.dp))
                         LinkButton(
                             text = stringResource(id = R.string.request_icons_link),
                             url = "https://forms.gle/Fx8vZAiWdW1Tyjo57",
